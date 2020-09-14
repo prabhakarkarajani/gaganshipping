@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/newlayout';
 import Link from 'next/link'
-import { posts } from './post';
+// import posts from './post';
 export default function Service() {
     return (
         <React.Fragment>
@@ -23,7 +23,7 @@ export default function Service() {
                             </span>
                     </div>
                 </div>
-                <div>
+                {/* <div>
                     <ul>
                         {Object.keys(posts).map((value, index) => {
                             return (
@@ -35,7 +35,7 @@ export default function Service() {
                             )
                         })}
                     </ul>
-                </div>
+                </div> */}
             </Layout>
         </React.Fragment>
     )

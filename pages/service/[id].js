@@ -2,10 +2,11 @@ import React from 'react';
 import Layout from '../../components/newlayout';
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { posts } from '../post';
+import posts from '../post.json';
 import _ from 'lodash';
 
 export default () => {
+     
     React.useEffect(()=>{
         window.scrollTo({
             top: 0,

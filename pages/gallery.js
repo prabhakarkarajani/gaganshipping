@@ -1,11 +1,11 @@
 import React from 'react';
 import Layout from '../components/newlayout';
-import { gallerydb } from './gallery_img';
+import  gallerydb from './galleryImges.json';
 import { cloneDeep } from 'lodash';
 export default function Gallery() {
     const [showPopup, setShowPopup] = React.useState(false);
     const [currentImgInfo, setCurrentImgInfo] = React.useState('');
-    const [data, setData] = React.useState(gallerydb);
+    const [data, setData] = React.useState(gallerydb.gallerydb);
     const handleClick = (e, item, idx) => {
         setShowPopup(true);
         setCurrentImgInfo({ item:item, idx:idx });
@@ -34,7 +34,7 @@ export default function Gallery() {
         <React.Fragment>
             <Layout>
                 <div className="grid grid-flow-col-3 grid-cols-3 gap-4 px-20 py-10">
-                    {gallerydb.map((item, idx) => (
+                    {gallerydb.gallerydb.map((item, idx) => (
                         <div className="rounded overflow-hidden shadow-lg h-64">
                             <img src={`/gallery/${item.src}`} style={{ 'width': '100%', 'height': '100%', 'cursor': 'pointer' }} onClick={(e) => { handleClick(e, item, idx) }} />
                         </div>))}

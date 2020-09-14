@@ -1,3 +1,4 @@
+import React from 'react';
 import Layout from '../components/newlayout';
 import Link from 'next/link'
 import { posts } from './post';

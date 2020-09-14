@@ -1,5 +1,5 @@
-import Layout from '../../components/newlayout';
 import React from 'react';
+import Layout from '../../components/newlayout';
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { posts } from '../post';

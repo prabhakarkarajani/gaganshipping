@@ -1,3 +1,4 @@
+import React from 'react';
 import Layout from '../components/newlayout'
 export default function About() {
     return (

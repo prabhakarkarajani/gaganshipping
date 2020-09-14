@@ -1,3 +1,4 @@
+import React from 'react';
 import Layout from '../components/newlayout';
 import { gallerydb } from './gallery_img';
 import { cloneDeep } from 'lodash';

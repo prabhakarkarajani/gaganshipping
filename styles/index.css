@@ -1,0 +1,341 @@
+@font-face {
+  font-family: 'SFUI_bold';
+  src: url('../public/sf-ui-text-2-cufonfonts/SFUIText-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUI_bold_italic';
+  src: url('../public/sf-ui-text-2-cufonfonts/SFUIText-BoldItalic.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUI_heavy';
+  src: url('../public/sf-ui-text-2-cufonfonts/SFUIText-Heavy.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUI_heavy_italic';
+  src: url('../public/sf-ui-text-2-cufonfonts/SFUIText-HeavyItalic.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUI_light';
+  src: url('../public/sf-ui-text-2-cufonfonts/SFUIText-Light.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUI_light_italic';
+  src: url('../public/sf-ui-text-2-cufonfonts/SFUIText-LightItalic.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUI_medium';
+  src: url('../public/sf-ui-text-2-cufonfonts/SFUIText-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUI_medium_italic';
+  src: url('../public/sf-ui-text-2-cufonfonts/SFUIText-MediumItalic.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUI';
+  src: url('../public/sf-ui-text-2-cufonfonts/SFUIText-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUI_italic';
+  src: url('../public/sf-ui-text-2-cufonfonts/SFUIText-RegularItalic.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUI_semibold';
+  src: url('../public/sf-ui-text-2-cufonfonts/SFUIText-Semibold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUI_semibold_italic';
+  src: url('../public/sf-ui-text-2-cufonfonts/SFUIText-SemiboldItalic.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@tailwind base;
+/* Write your own custom base styles here */
+
+/* Start purging... */
+
+@tailwind components;
+/* Stop purging. */
+
+/* Write you own custom component styles here */
+
+.btn-blue {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
+
+/* Start purging... */
+
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+
+/* Small (sm) */
+
+@media (min-width: 640px) {
+  /* ... */
+}
+
+/* Medium (md) */
+
+@media (min-width: 768px) {
+  /* ... */
+}
+
+/* Large (lg) */
+
+@media (min-width: 1024px) {
+  /* ... */
+}
+
+/* Extra Large (xl) */
+
+@media (min-width: 1280px) {
+  /* ... */
+}
+
+body {
+  font-family: 'SFUI';
+  
+}
+
+.logo {
+  height: 48px;
+}
+.logo-h {
+  font-family: 'SFUI_bold';
+}
+
+.logo-h span{
+  margin-left: -14px;
+  color: #fec100;
+  font-size:2rem;
+}
+
+.header-helper {
+  background-color: #46a6da;
+  height: 10px;
+  color: white;
+}
+
+.header-nav {
+  background: #FFF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  color: #1f4da1;
+  /* letter-spacing: 0.15rem; */
+  font-size: "20px";
+  font-family: 'SFUI';
+  cursor: pointer;
+}
+
+.active {
+  color: #fec100;
+  font-family: 'SFUI_bold';
+  border-bottom:4px solid;
+}
+
+.pageload-effect {
+  transition: ease 1s;
+}
+
+.nav-helpertext {
+  display: flex;
+  font-family: SFUI_light_italic;
+  font-size: 14px;
+  background-color:  #fec100;;
+}
+
+.banner {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: -180px;
+}
+
+.banner .banner_title {
+  position: absolute;
+  color: white;
+  width: 100%;
+  text-align: center;
+  top: 30px;
+}
+
+.banner_title h1 {
+  font-family: 'SFUI_bold';
+  font-size: 70px;
+  line-height: 80px;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+}
+
+.banner_title span {
+  font-size: 20px;
+  font-family: 'SFUI';
+  line-height: 30px;
+  letter-spacing: 0.5rem;
+  background: #001022;
+}
+
+.banner1 {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+.banner1 img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.banner1 .banner_title {
+  position: absolute;
+  color: white;
+  width: 100%;
+  text-align: center;
+  top: 150px;
+}
+
+.banner1 .banner_title h1 {
+  font-family: 'SFUI_bold';
+  font-size: 70px;
+  line-height: 80px;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+  background-color: rgba(0, 16, 34, 0.5);
+}
+
+.banner1 .banner_title span {
+  font-size: 20px;
+  font-family: 'SFUI';
+  line-height: 30px;
+  letter-spacing: 0.44rem;
+  background: #001022;
+}
+
+.banner1 .banner_title .service-types {
+  display: inline-flex;
+  text-align: center;
+  line-height: 24px;
+}
+
+.banner1 .banner_title .service-types svg {
+  margin: 0 5px;
+}
+
+.bg-img {
+  background-image: url('../public/images/1.jpg');
+  background-size: cover;
+  height: 100vh;
+  opacity: 0.7;
+}
+
+.custimg {
+  background-image: url('https://images.unsplash.com/photo-1595900604598-4667e6437839?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  height: 100vh;
+  background-position-y: center;
+}
+
+.features {
+  margin: 10px 20px;
+}
+
+.features h2 {
+  font-family: 'SFUI_bold';
+  font-size: 45px;
+  line-height: 30px;
+  text-align: center;
+  color: #062231;
+}
+
+.features p {
+  font-size: 20px;
+  padding: 10px 50px;
+  font-family: SFUI_italic;
+}
+
+.features .article_par {
+  font-size: 16px;
+  padding: 20px 50px;
+  font-family: 'SFUI_light';
+}
+
+.features .article_par b {
+  font-family: 'SFUI_bold';
+}
+
+.cardsContainer {
+  font-family: 'SFUI';
+  color: #0b2431;
+}
+
+.cardsContainer .par {
+  font-family: 'SFUI_light';
+  height: 208px;
+}
+
+.cardsContainer img {
+  height: 280px;
+}
+
+.footer-copyrights {
+  font-size: 12px;
+  font-family: 'SFUI_light';
+  line-height: 50px;
+  color: #0b2431;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 const links = [
     { href: '/', label: 'Home' },
     { href: '/about', label: 'Who We Are' },
-    { href: '/service/portagency', label: 'Service' },
+    { href: '/service/port%20agency', label: 'Service' },
     { href: '/gallery', label: 'Gallery' },
     { href: '/contactus', label: 'Contact Us' }
 ]

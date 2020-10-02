@@ -140,7 +140,7 @@ body {
 }
 
 .logo-h span{
-  margin-left: -14px;
+  /* margin-left: -14px; */
   color: #fec100;
   font-size:2rem;
 }

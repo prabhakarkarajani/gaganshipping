@@ -1,10 +1,12 @@
 {
   "/_app": "pages/_app.js",
+  "/about": "pages/about.html",
+  "/contactus": "pages/contactus.html",
+  "/gallery": "pages/gallery.html",
+  "/": "pages/index.html",
+  "/service": "pages/service.html",
+  "/service/[id]": "pages/service/[id].html",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/contactus": "pages/contactus.js",
-  "/gallery": "pages/gallery.js",
-  "/service/[id]": "pages/service/[id].js",
-  "/": "pages/index.js",
-  "/about": "pages/about.js"
+  "/404": "pages/404.html"
 }

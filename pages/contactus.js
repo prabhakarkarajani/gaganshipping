@@ -28,7 +28,7 @@ export default function Contact() {
     return (
         <React.Fragment>
             <Layout>
-                <div className="banner1">
+                <div className="banner1" style={{'height': 300}}>
                     <img src="https://images.unsplash.com/photo-1534536281715-e28d76689b4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80" height="500" />
                     <div className="banner_title">
                         <h1 className="pl-8 text-left">Contact Us</h1>
@@ -50,11 +50,25 @@ export default function Contact() {
                     <div className="flex-none w-1/2 text-center border-double border-r-2  py-2 m-2 ">
                         <p className="text-4xl">GAGAN SHIPPING SERVICES</p>
                         <p>
-                            Door No: 39-9-9, Tenneti Nagar, Murali Nagar, Visakhapatnam – 530 007
+                            <span style={{'marginBottm': '5px', 'display': 'inline-block'}}>Door No: 39-9-9, </span>
+                            <br />
+                            <span style={{'marginBottm': '5px', 'display': 'inline-block'}}>Tenneti Nagar, Murali Nagar,</span> 
+                            <br/>
+                            <span style={{'marginBottm': '5px', 'display': 'inline-block'}}>Visakhapatnam – 530 007</span>
                         <br />
-                        Telephone: +91 – 891 – 2540468; Mobile: +91 - 98661 – 05677
-                        <br />
-                        E-Mail: gaganship@gmail.com
+                        <span style={{'marginBottm': '5px', 'display': 'inline-block'}}>Telephone: +91–891–2540468.</span> <br />
+                        <span style={{'marginBottm': '5px', 'display': 'inline-block'}}>Mobile: +91 - 98661 – 05677</span>
+                        <p>
+                            <span>
+                            E-Mail:
+                            </span>
+                            <span>
+                            &nbsp;&nbsp;gagan@gaganship.com, 
+                            <br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;crew@gaganship.com
+                            </span>
+                        </p>
+                       
 
                     </p>
                     </div>
@@ -62,6 +76,11 @@ export default function Contact() {
                     <p className="text-3xl">CONTACT PERSONS</p>
                     <p className="text-gray-900">
                         <span ><b className="text-lg">G.G.Rao</b> <br/>Mobile:+91-98661–05677 </span>
+                        <br/><br/>
+                         <span ><b className="text-lg">G. S. P. KUMAR</b> <br/>Mobile:+91-93479-53664</span>
+                         <br/><br/>
+                        <span ><b className="text-lg">G.KUSHAL VIVEK</b> <br/>Mobile:+91-81434-71234</span>
+                        
                     </p>
                     </div>
                 </div>

@@ -6,7 +6,7 @@ export default function Service() {
     return (
         <React.Fragment>
             <Layout>
-                <div className="banner1 ">
+                <div className="banner1">
                     <img className="bottom-0" src="https://images.unsplash.com/photo-1558898417-f264cec8a9fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2900&q=80" height="500" />
                     <div className="banner_title">
                         <h1 className="p-4">Our Services</h1>

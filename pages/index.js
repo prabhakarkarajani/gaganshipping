@@ -36,7 +36,7 @@ export default function IndexPage() {
           <div class="max-w-sm rounded overflow-hidden shadow-lg h-280 min-h-full">
             <img class="w-full" src="https://images.unsplash.com/photo-1564035105550-e1f02aa8556b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80" alt="Sunset in the mountains" />
             <div class="px-6 py-4">
-              <div class="text-xl mb-2 uppercase">Port Agency Service</div>
+              <div class="text-xl mb-2 uppercase">Port Agency Services</div>
               <p class="text-base pb-4 text-justify par">
                 We provide agency services and shipping expertise to local and foreign ship owning, trading, and industry interests. We ensure vessels a fast turnaround, covering bunkering, stores, spares and repairs, cash advances, attending to crew change and timely support of all other required activities with maximum efficiency at appropriate cost.
     </p>
